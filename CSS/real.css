@@ -1,0 +1,186 @@
+body
+{
+	font-family: sans-serif;
+}
+.banner
+{
+	background: url(../img/city.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	clear: both;
+}
+.notbold
+{
+	font-weight: normal;
+}
+.banner h3 #spark
+{
+	padding-left: 7px;
+}
+.banner h3
+{
+	font-size: 28px;
+	color: white;
+	font-weight: normal;
+	width: 455px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 100px;
+	margin-bottom: 15px;
+	margin-left: 12px;
+	height: 120px;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+
+h1, h2
+{
+  letter-spacing: -1px;
+}
+h2
+{
+	text-size: 26px;
+	text-transform: lowercase;
+	font-weight: normal;
+	border-bottom:  1px solid #d1d1d1;
+	padding-bottom: 24px;
+	margin-bottom: 15px;
+	line-height: 1em;
+
+}
+p
+{
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+li
+{
+	margin-left: 24px;
+}
+a
+{
+	color: #7e7e7e;
+	text-decoration: none;
+}
+.selected, a:hover
+{
+	color: black;
+}
+.button
+{
+	background-color:#242324;
+	padding:6px;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: white;
+}
+.button:hover
+{
+	color: white;
+    background-color: black;
+}
+
+nav ul
+{
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
+nav 
+{
+	float: right;
+	margin-right: 5px;
+}
+nav li
+{
+	display: inline;
+}
+nav a
+{
+	text-transform: lowercase;
+}
+header
+{
+	overflow: hidden;
+}
+header h1
+{
+	float: left;
+	margin: 10px 3px 22px;
+}
+
+.callout
+{
+	background-color: black;
+	height: 231px;
+}
+
+.main
+{
+	margin-top: 20px;
+}
+.main blockquote
+{
+	position: relative;
+}
+.main blockquote p
+{
+	padding-left: 20px;
+}
+.main blockquote p:before
+{
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: 0px;
+}
+.main blockquote p:after
+{
+	content: '”';
+	float:right;
+	position: absolute;
+	bottom: -10px;
+	right: 23px;
+
+}
+.main blockquote p:before,
+.main blockquote p:after
+{
+		font-size: 40px;
+		color: #bfbfbf;
+		font-style: italic;
+}
+footer
+{
+	clear: both;
+}
+blockquote p
+{
+	color: #0e0e0e;
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+}
+ .work img
+
+{
+	width: 470px;
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+.work h3, h4
+{
+	font-size: 26px;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+.work h4
+{
+	color: #787878;
+	line-height: 1.2em;
+	margin-bottom: 33px;
+}
+.work hr
+{
+	margin-bottom: 30px;
+}

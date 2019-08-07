@@ -1,0 +1,17 @@
+ol,dl{
+	margin-left: 10px;
+}
+
+div{
+	height: 400px;
+	width: 700px;
+	margin: auto;
+	background: brown;
+	text-align: center; 
+}
+#insult {
+	color: blue;
+}
+.lista{
+		color: orange;
+}
